@@ -1,10 +1,10 @@
-import react , {Component} from 'react';
-class item extends Component{
+import React , {Component} from 'react';
+class Items extends Component{
     render()
     {
         return (
-        <h2>iteam</h2>
+        <h2>items</h2>
         );
     }
 }
-export default  item;
+export default  Items;

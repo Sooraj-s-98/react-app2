@@ -1,11 +1,16 @@
 import React,{Component} from 'react';
 import './App.css';
-import item from './component/items';
+import Items from './component/items';
+import Footer from './component/FooterComponent';
+import Header from './component/HeaderComponent';
+
 class App extends Component {
   render(){
   return (
     <div className="App">
-      <item/>
+      <Header/>
+      <Items/>
+      <Footer/>
     </div>
   );
   }
